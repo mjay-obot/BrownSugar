@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Welcome To BrownSugar</title>
+</head>
+<body>
+    <div class="brown-sugar-wrapper">
+        <div class="desktop-nav-bar">
+            <div class="sugar-logo-brown">
+                <img src="IMGSugar/Main Logo.jpg" alt="brown-logo">
+                <p>Brown Sugar</p>
+            </div>
+            <ul class="sidebar">
+                <li class="menu-button" onclick=hideSidebar()><i class="bi bi-x-lg"></i></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#about-ceo">About-CEO</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            <nav id="sugar-bar">
+                <ul>
+                <li class="hideonmobile"><a href="#home">Home</a></li>
+                <li class="hideonmobile"><a href="#features">Features</a></li>
+                <li class="hideonmobile"><a href="#pricing">Pricing</a>
+                <li class="hideonmobile"><a href="#reviews">Reviews</a></li>
+                <li class="hideonmobile"><a href="#about-ceo">About-CEO</a></li>
+                <li class="hideonmobile"><a href="#contact">Contact</a></li>
+                <li class="menu-button"onclick=showSidebar()><a href=""><i class="bi bi-list-nested"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="home" class="about-page">
+            <div class="about-brown-sugar">
+                <img src="IMGSugar/IMG-20231219-WA0005.jpg" alt="Logo milky">
+            </div>
+            <p>Introducing "Brown Sugar," a revolutionary lip gloss that not only elevates your cosmetic game but also brings health benefits to your lips.<br> Packed with antioxidants, this lip gloss contributes to the overall health of your lips, providing protection against environmental stressors and promoting a youthful appearance. Make Brown Sugar your go-to lip gloss for a perfect balance of beauty and wellness, and indulge in a product that not only enhances your lips' visual allure but also cares for their health.</p>
+        </section>
+        <section id="features" class="features">
+            <h3>Features <i class="bi bi-cash-stack"></i></h3>
+            <p>Brown Sugar comes with the following features</p>
+            <div class="features-imgs">
+                <div class="features-img1">
+                    <img src="IMGSugar/IMG-20231117-WA0032.jpg" alt="" class="features-img2">
+                <p class="features-p">
+                    Brown sugar lip gloss offers a delightful fusion of aesthetic and nourishing advantages. Its warm, natural hue <br>provides a universally flattering tint, enhancing the lips with a subtle, earthy glow suitable for various skin tones.
+                </p>
+                </div>
+                <div class="features-img1">
+                    <p class="features-p">
+                        The sweet aroma and taste of brown sugar impart a sensory indulgence,<br> adding a delightful touch to your beauty routine.
+                    </p>
+                    <img src="IMGSugar/IMG-20240102-WA0001.jpg" alt="" class="features-img2">
+                </div>
+                <div class="features-img1">
+                    <img src="IMGSugar/IMG-20231117-WA0034.jpg" alt="" class="features-img2">
+                    <p class="features-p">
+                        Additionally, the moisturizing properties of brown sugar <br> contribute to soft and supple lips, preventing dryness and chapping. 
+                    </p>
+                </div>
+                <div class="features-img1">
+                    <p class="features-p">
+                        The inclusion of natural ingredients in brown sugar lip gloss, such as antioxidants and vitamins, <br>promotes overall lip health by providing hydration and protecting against environmental stressors.
+                    </p>
+                    <img src="IMGSugar/IMG-20231219-WA0004.jpg" alt="" class="features-img2">
+                </div>
+            </div>
+        </section>
+        <section id="pricing" class="pricing">
+            <h3>Pricing <i class="bi bi-tag-fill"></i></h3>
+            <p>Below are Brown Sugar's price tags</p>
+            <div class="pricing-imgs">
+                <div class="pricing-img1">
+                    <i class="bi bi-heart-fill heart-icon"></i>    
+                    <img src="IMGSugar/IMG-20231117-WA0036.jpg" alt="">
+                    <p>Unlimited Available</p>
+                    <h2>Caramel Triplet</h2>
+                    <div class="pricing-info">
+                        <span>N8000</span>
+                        <i class="bi bi-bag-fill"></i>   
+                    </div>
+                </div>
+                <div class="pricing-img1">
+                    <i class="bi bi-heart-fill heart-icon"></i>    
+                    <img src="IMGSugar/IMG-20231117-WA0038.jpg" alt="">
+                    <p>Unlimited Available</p>
+                    <h2>Candy Juice</h2>
+                    <div class="pricing-info">
+                        <span>N5000</span>
+                        <i class="bi bi-bag-fill"></i>   
+                    </div>
+                </div>
+                <div class="pricing-img1">
+                    <i class="bi bi-heart-fill heart-icon"></i>    
+                    <img src="IMGSugar/IMG-20231117-WA0030.jpg" alt="">
+                    <p>Unlimited Available</p>
+                    <h2>Tasty Sugar</h2>
+                    <div class="pricing-info">
+                        <span>N5000</span>
+                        <i class="bi bi-bag-fill"></i>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews" class="reviews">
+            <h3>Reviews <i class="bi bi-sticky-fill"></i></h3>
+            <p>Customer's Reviews</p>
+            <!---Swiper API-->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <!---Slide 1-->
+                  <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="IMGSugar/IMG-20231124-WA0027.jpg" alt="">
+                        <h2>Jane Chinwendu</h2>
+                        <span>Caramel Triplet, my favorite!</span>
+                        <p>Brown Sugar Lip Gloss delivers a seamlessly glossy and hydrating finish <br>with a sophisticated touch of caramel-infused warmth, enhancing natural lip beauty.</p>
+                    </div>
+                  </div>
+                   <!---Slide 2-->
+                  <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="IMGSugar/IMG-20231229-WA0022.jpg" alt="">
+                        <h2>Torii Shima</h2>
+                        <span>Tasty Sugar, just as the name implies, tastes better!</span>
+                        <p>This Gloss combines a deliciously sweet flavor with a glossy finish, <br> offering a luscious and hydrating experience for irresistibly kissable lips.</p>
+                    </div>
+                  </div>
+                  <!---Slide 3-->
+                  <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="IMGSugar/Nsekeitam.jpg" alt="">
+                        <h2>Pretty Itam</h2>
+                        <span>Candy Juice, yummy!</span>
+                        <p>This Lip Juice infuses lips with a burst of sweetness, <br>delivering a high-shine finish and a delectable hint of candy-inspired allure.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+        <section id="about-ceo" class="about-ceo">
+            <h3>About CEO</h3>
+            <div class="ceo-bio">
+                <div class="ceo">
+                    <img src="IMGSugar/CEO Potrait.jpg" alt="">
+                    <p>Born and gifted with a natural talent, I love to put smiles on people's faces and to boost their confidence, I have just the right gloss for that. <br> I'm Lucky Veronica, CEO of Brown Sugar. I'm a graduate of Philosophy from the University of Abuja, Nigeria. <br> I'm a self-driven, optimistic, and open-minded person who derives pleasure in accepting any challenge that comes my way.
+                    </p>
+                </div>
+                <span class="btn">Know More <i class="bi bi-arrow-up-right-circle-fill"></i></span>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h3>Contact Info <i class="bi bi-person-lines-fill"></i></h3>
+            <div class="footer-wrap">
+                <div class="footer">
+                    <div class="sugar-logo-brown">
+                        <img src="IMGSugar/Logo milky.jpg" alt="brown-logo" class="footer-img">
+                        <p class="footer-p">Brown Sugar</p>
+                        <div class="socials">
+                            <a href="https://wa.me/2347056705185"><i class="bi bi-whatsapp"></i></a>
+                            <a href="https:/twitter.com/_dyreem"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://www.instagram.com/brownsugar_signuature?igsh=emR0emczNGhkOWIy"><i class="bi bi-instagram"></i></a>
+                            <a href="tiktok.com/@brownsugar_signature"><i class="bi bi-tiktok"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61550576857418&mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h4>Custormer's Resources</h4>
+                    <a href="">Location</a>
+                    <a href="">Support</a>
+                    <a href="">FAQ</a>
+                </div>
+                <div class="footer">
+                    <h4>SiteMap</h4>
+                    <ol class="footer-navbar">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#about-ceo">About-CEO</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ol>
+                </div>
+                <div class="footer">
+                    <form action="">
+                        <h4>Contact Us</h4>
+                        <label for="name"><input type="name" id="name" name="name" placeholder="Enter your name" required>
+                        </label>
+                        <label for="email"><input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </label>
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Send us a message..."></textarea>
+                        <button class="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <p class="copyright">&#169; 2024 Brown Sugar. All Rights Reserved.</p>
+    </div>
+    <p class="jay-tech">made with <i class="bi bi-heart-fill"></i> by <a href="https://github.com/mjay-obot">Jay_tech</a></p>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!----My JS Code-->
+    <script src="BrownSugar.js"></script>
+</body>
+</html>
