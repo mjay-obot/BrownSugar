@@ -449,6 +449,7 @@ textarea::placeholder {
 @media(max-width: 900px){
     .hideonmobile{
         display: none;
+        width: 100%;
     }
     .menu-button {
         display: block;
@@ -470,5 +471,11 @@ textarea::placeholder {
     .footer-wrap {
         grid-template-columns: repeat(1,1fr);
         padding-left: 1rem;
+    }
+    .copyright, .jay-tech {
+        font-size: 0.8rem;
+    }
+    .jay-tech .bi {
+        padding: 0.3rem;
     }
 }
